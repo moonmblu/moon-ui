@@ -1,8 +1,9 @@
 import { h, Fragment } from 'preact'
+import { MarxAtHome } from './MarxAtHome'
 
 export function Loader() {
     return <>
-        <h1 class='loading-header'>MarxAtHome</h1>
+        <MarxAtHome width={500} />
         <div class='loading-bar'>
             <div class='loading-bar-ball ball-1' />
             <div class='loading-bar-ball ball-2' />

@@ -3,7 +3,7 @@ import { MarxAtHome } from './MarxAtHome'
 
 export function Loader() {
     return <>
-        <MarxAtHome width={500} />
+        <MarxAtHome />
         <div class='loading-bar'>
             <div class='loading-bar-ball ball-1' />
             <div class='loading-bar-ball ball-2' />
